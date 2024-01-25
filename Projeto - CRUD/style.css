@@ -1,0 +1,53 @@
+.imagem-pequena {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.texto {
+    color: #000000;
+}
+
+.texto:hover {
+  color: #ff0000;
+}
+
+.nav-item .nav-link:active,
+.nav-item .nav-link:focus {
+  background-color: #fff
+}
+
+.card-custom {
+    height: 275px; 
+    object-fit: cover;
+}
+
+.botao {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.botao:hover {
+  background-color: #0c0c0c;
+  color: #fff;
+}
+
+.email-card {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.email-card h2 {
+  color: #007bff;
+}
+
+.email-card hr {
+  border-top: 1px solid #ddd;
+}

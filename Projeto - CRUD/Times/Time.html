@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../style2.css">
+
+  <!--Logo e Titulo-->
+  <link rel="icon" href="../Loja/100t-logo2.webp" type="image/x-icon">
+  <title>Times</title>
+</head>
+
+<body>
+    <!--Menu-->
+    <div class="container">
+        <ul class="nav nav-fill align-items-center font-weight-bold">
+            <li>
+              <a href="../Loja/Loja.html">
+                <img src="../Loja/100T-logo.png" width="100px">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link texto" href="../Loja/Loja.html">LOJA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link texto" href="../Produtos/Produtos.php">PRODUTOS</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link texto" href="Time.html">TIMES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link texto" href="../Sobre/Sobre.html">SOBRE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link texto" href="../Contato/Contato.html">CONTATO</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle texto" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                LOGIN
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item texto" href="../Login/Login.html">Área do Cliente</a>
+                <a class="dropdown-item texto" href="../ADM/LoginADM.html">Área da Administração</a>
+              </div>
+          </li>
+        </ul>
+        <hr class="bg-dark">
+    </div>
+
+    <!--Times-->
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="d-flex align-items-center">
+                  <h2 class="ml-3">A BUSCA COMPETITIVA PARA GANHAR CAMPEONATOS É A BASE PARA TODAS AS EQUIPES 100 THIEVES ESPORTS.</h2>
+                  <img src="../Sobre/Anya100T.png" alt="100T-Anya" class="img-fluid" width="120">
+              </div>
+          </div>
+      </div>
+      <hr class="bg-dark">
+    </div>
+    <!--Carrossel-->
+    <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <!--Time1-->
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="100T-CallOfDuty.webp" alt="Primeiro Slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Time de Call of Duty</h5>
+            <p>100T Ghosty - 100T Cammy - 100T Joedeceives - 100T Afro</p>
+          </div>
+        </div>
+        <!--Time1-->
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../Loja/Carrossel2.png" alt="Segundo Slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Time de Valorant</h5>
+            <p>100T Asuna - 100T Cryo - 100T Bang - 100T Derrek - 100T Stellar</p>
+          </div>
+        </div>
+        <!--Time3-->
+        <div class="carousel-item">
+          <img class="d-block w-100" src="100T-LoL.jpg" alt="Terceiro Slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Time de League of Legends</h5>
+            <p>100T Tenacity - 100T Bjergsen - 100T Closer - 100T Doublelift - 100T Busio</p>
+          </div>
+        </div>
+        <!--Time4-->
+        <div class="carousel-item">
+          <img class="d-block w-100" src="100T-Apex.png" alt="Quarto Slide">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <!--Indicadores-->
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+      <hr class="bg-dark">
+    </div>
+    <br>
+    
+    <!--Junção das Colunas-->
+    <div class="container">
+      <div class="row justify-content-center">
+        <!--Texto-->
+        <div class="col-md-6 text-justify">
+          <h2>CALL OF DUTY</h2>
+          <p style="font-size: 17px;">Call of Duty, uma verdadeira explosão de ação e adrenalina! Com gráficos impressionantes e mecânica de jogo imersiva, cada partida é uma jornada emocionante. Os modos variados oferecem desde combates frenéticos a missões estratégicas. A personalização intensa de armas permite criar seu estilo de jogo único. Seja você um fã de modos multiplayer competitivos ou de uma narrativa envolvente no modo campanha, Call of Duty oferece uma experiência completa e emocionante. Prepare-se para mergulhar em batalhas épicas e mostrar suas habilidades de combate. Está pronto para a ação, soldado?</p>
+        </div>
+        <!--Vídeo-->
+        <div class="col-md-6">
+          <video class="d-block w-100" controls>
+            <source src="SaveTube.io-Call of Duty®_Mobile - Cinematic Trailer.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </div>
+      </div>
+    </div>
+    <br><br>
+
+    <!--Junção das Colunas-->
+    <div class="container">
+      <div class="row justify-content-center">
+        <!--Vídeo-->
+        <div class="col-md-6">
+          <video class="d-block w-100" controls>
+            <source src="hero-c35bd03ceaa5f919e98b20c905044a3d.webm" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </div>
+        <!--Texto-->
+        <div class="col-md-6 text-justify">
+          <h2>LEAGUE OF LEGENDS</h2>
+          <p style="font-size: 17px;">League of Legends é uma experiência eletrizante de batalhas estratégicas de cinco contra cinco, com campeões lendários e ação constante. Escolha seu campeão, forme estratégias com a equipe e mergulhe em campos de batalha cheios de desafios. A cada partida, desbloqueie itens poderosos, aprimore habilidades e vivencie momentos épicos. É mais do que um jogo, é uma jornada competitiva onde estratégia e habilidade se encontram para criar experiências inesquecíveis. Você está pronto para a emoção de League of Legends?</p>
+        </div>
+      </div>
+    </div>
+    <br><br>
+
+    <!--Junção das Colunas-->
+    <div class="container">
+      <div class="row justify-content-center">
+        <!--Texto-->
+        <div class="col-md-6 text-justify">
+          <h2>VALORANT</h2>
+          <p style="font-size: 18px;">Em Valorant, cada agente traz uma dinâmica única ao jogo, incentivando os jogadores a experimentarem diferentes estilos de jogo. A integração de mapas bem projetados contribui para partidas variadas e desafiadoras. Além disso, a competitividade do cenário e os eventos regulares garantem que sempre haja algo novo e empolgante para os jogadores explorarem. Prepare-se para uma jornada emocionante, onde a estratégia e a habilidade se encontram em um campo de batalha virtual único. Boa sorte, agente, e que a vitória esteja ao seu alcance!</p>
+        </div>
+        <!--Vídeo-->
+        <div class="col-md-6">
+          <video class="d-block w-100" controls>
+            <source src="SaveTube.io-OpTic vs LOUD_ The Final Chapter __ VALORANT Champions 2022 Grand Finals Hype Film.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    
+    <!--Junção das Colunas-->
+    <div class="container">
+      <div class="row justify-content-center">
+        <!--Vídeo-->
+        <div class="col-md-6">
+          <video class="d-block w-100" controls>
+            <source src="SaveTube.io-Apex Legends_ Resurrection Gameplay Trailer.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </div>
+        <!--Texto-->
+        <div class="col-md-6 text-justify">
+          <h2>APEX LEGENDS</h2>
+          <p style="font-size: 17px;">Apex Legends é uma explosão de ação frenética e estratégia intensa! Este jogo de battle royale da Respawn Entertainment mergulha os jogadores em um campo de batalha dinâmico, repleto de personagens únicos, cada um com habilidades extraordinárias. A mecânica de movimento fluida e os tiroteios emocionantes proporcionam uma experiência de jogo visceral. Com gráficos impressionantes e constantes atualizações, Apex Legends mantém a empolgação e a novidade a cada partida. Junte-se a uma comunidade vibrante, domine suas habilidades e embarque em uma jornada rumo à vitória épica! Prepare-se para a emoção, Lendário!</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Rodapé-->
+    <div class="container">
+        <hr class="bg-dark">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-4">
+          <!--Coluna 1-->
+          <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <p class="text-dark">© 2017, 100T Ltd. Todos os direitos reservados.</p>
+          </div>
+          <!--Coluna 2-->
+          <div class="col mb-3">
+          </div>
+          <!--Coluna 3-->
+          <div class="col mb-3">
+            <h5 class="font-weight-bold">Início</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="../Loja/Loja.html" class="nav-link p-0 text-dark">Loja</a></li>
+              <li class="nav-item mb-2"><a href="Time.html" class="nav-link p-0 text-dark">Times</a></li>
+              <li class="nav-item mb-2"><a href="../Sobre/Sobre.html" class="nav-link p-0 text-dark">Sobre</a></li>
+              <li class="nav-item mb-2"><a href="../Contato/Contato.html" class="nav-link p-0 text-dark">Contato</a></li>
+            </ul>
+          </div>
+          <!--Coluna 4-->
+          <div class="col mb-3">
+            <h5 class="font-weight-bold">Redes Sociais</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://www.tiktok.com/@100thieves?lang=en" class="nav-link p-0 text-dark">Tiktok</a></li>
+              <li class="nav-item mb-2"><a href="https://www.youtube.com/channel/UCnrX2_FoKieobtw19PiphDw" class="nav-link p-0 text-dark">Youtube</a></li>
+              <li class="nav-item mb-2"><a href="https://www.instagram.com/100thieves/" class="nav-link p-0 text-dark">Instagram</a></li>
+              <li class="nav-item mb-2"><a href="https://twitter.com/100Thieves" class="nav-link p-0 text-dark">Twitter</a></li>
+            </ul>
+          </div>
+          <!--Coluna 5-->
+          <div class="col mb-3">
+            <h5 class="font-weight-bold">Nossas Marcas</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://100thieves.com/pages/apparel" class="nav-link p-0 text-dark">Apparel</a></li>
+              <li class="nav-item mb-2"><a href="https://drinkjuvee.com" class="nav-link p-0 text-dark">Juvee</a></li>
+              <li class="nav-item mb-2"><a href="https://higround.co" class="nav-link p-0 text-dark">Higround</a></li>
+              <li class="nav-item mb-2"><a href="https://projectx.100thieves.com" class="nav-link p-0 text-dark">Project X</a></li>
+            </ul>
+          </div>
+        </footer>
+    </div>
+
+</body>
+</html>

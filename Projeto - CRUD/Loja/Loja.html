@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style2.css">
+
+    <!--Logo e Titulo-->
+    <link rel="icon" href="100t-logo2.webp" type="image/x-icon">
+    <title>100 Thieves</title>
+</head>
+
+<body>
+    <!--Menu-->
+    <div class="container">
+      <ul class="nav nav-fill align-items-center font-weight-bold">
+          <li>
+            <a href="Loja.html">
+              <img src="100T-logo.png" width="100px" alt="100T">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link texto" href="Loja.html">LOJA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link texto" href="../Produtos/Produtos.php">PRODUTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link texto" href="../Times/Time.html">TIMES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link texto" href="../Sobre/Sobre.html">SOBRE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link texto" href="../Contato/Contato.html">CONTATO</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle texto" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              LOGIN
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item texto" href="../Login/Login.html">Área do Cliente</a>
+              <a class="dropdown-item texto" href="../ADM/LoginADM.html">Área da Administração</a>
+            </div>
+          </li>
+      </ul>
+      <hr class="bg-dark">
+    </div>
+
+    <!--Carrossel-->
+    <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <!--Item1-->
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="Carrossel1.jpg" alt="Primeiro Slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>100T X Lexus</h5>
+            <p>O primeiro design gerado pela jogabilidade do campeonato, num dos veículos tecnologicamente mais avançados que a Lexus alguma vez fabricou.</p>
+          </div>
+        </div>
+        <!--Item2-->
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Carrossel2.png" alt="Segundo Slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Jersey 100T 2023</h5>
+            <p>Apresentamos a Jersey de 2023 para 100 Thieves. Esta camisa estreará em nossas equipes de VALORANT, League of Legends e Apex Legends de 2023.</p>
+          </div>
+        </div>
+        <!--Item3-->
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Carrossel3.webp" alt="Terceiro Slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>100 Thieves x Higround Keyboard</h5>
+            <p>Nosso teclado Geostone possui uma placa hot-swappable com keycaps sub PBT de corante, uma placa de alumínio e espuma de amortecimento de silicone.</p>
+          </div>
+        </div>
+      </div>
+      <!--Indicadores-->
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+      <hr class="bg-dark">
+    </div>
+
+    <!--Loja-->
+    <div class="container text-center">
+      <h1> COMPRE AGORA </h1>
+      <br>
+      <div class="row justify-content-center">
+        <!--Produto 1-->
+        <div class="card" style="width: 17rem;">
+          <img class="card-img-top" src="Bone-100T.webp" alt="Boné 100T">
+          <div class="card-body">
+            <h5 class="card-title">FOUNDATIONS GEOPRINT TRUCKER HAT</h5>
+            <p class="card-text">Preço: R$35,00</p>
+            <a href="https://100thieves.com/products/foundations-geoprint-trucker-hat-black-red" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+        <!--Produto 2-->
+        <div class="card" style="width: 17em;">
+          <img class="card-img-top" src="Jersey-100T.webp" alt="Jersey 100T">
+          <div class="card-body">
+            <h5 class="card-title">2023 PRIMARY JERSEY - BLACK/RED</h5>
+            <p class="card-text">Preço: R$85,00</p>
+            <a href="https://100thieves.com/products/2023-primary-jersey-1" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+        <!--Produto 3-->
+        <div class="card" style="width: 17rem;">
+          <img class="card-img-top" src="Shorts-100T.webp" alt="Shorts 100T">
+          <div class="card-body">
+            <h5 class="card-title">TRACK SHORTS - BLACK/RED</h5>
+            <p class="card-text">Preço: R$72,00</p>
+            <a href="https://100thieves.com/products/track-shorts-black-red" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+        <!--Produto 4-->
+        <div class="card" style="width: 17rem;">
+          <img class="card-img-top" src="Jaqueta-100T.webp" alt="Jaqueta 100T">
+          <div class="card-body">
+            <h5 class="card-title">FOUNDATIONS GEOPRINT ANORAK</h5>
+            <p class="card-text">Preço: R$135,00</p>
+            <a href="https://100thieves.com/products/foundations-geoprint-anorak-black-red" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+        <!--Produto 5-->
+        <div class="card" style="width: 17rem;">
+          <img class="card-img-top" src="Boné-JJK.webp" alt="Boné JJK">
+          <div class="card-body">
+            <h5 class="card-title">MIRROR SNAPBACK HAT - PINK</h5>
+            <p class="card-text">Preço: R$35,00</p>
+            <a href="https://100thieves.com/products/snapback-hat-cream" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+        <!--Produto 6-->
+        <div class="card" style="width: 17em;">
+          <img class="card-img-top" src="Camisa-JJK.webp" alt="Camisa JJK">
+          <div class="card-body">
+            <h5 class="card-title">JUJUTSU KAISEN CHORE COAT - PINK</h5>
+            <p class="card-text">Preço: R$145,00</p>
+            <a href="https://100thieves.com/products/chore-coat-pink" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+        <!--Produto 7-->
+        <div class="card" style="width: 17rem;">
+          <img class="card-img-top" src="Calça-JJK.jpg" alt="Calça JJK">
+          <div class="card-body">
+            <h5 class="card-title">JUJUTSU KAISEN PLEATED SWEATPANT</h5>
+            <p class="card-text">Preço: R$78,00</p>
+            <a href="https://100thieves.com/products/pleated-sweatpant-deep-violet" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+        <!--Produto 8-->
+        <div class="card" style="width: 17rem;">
+          <img class="card-img-top" src="Moletom-JJK.webp" alt="Moletom JJK">
+          <div class="card-body">
+            <h5 class="card-title">JUJUTSU KAISEN CREWNECK - PINK</h5>
+            <p class="card-text">Preço: R$94,00</p>
+            <a href="https://100thieves.com/products/cs-crewneck-pink" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+        <!--Produto 9-->
+        <div class="card" style="width: 17rem;">
+          <img class="card-img-top" src="Bone-Monaco.jpg" alt="Boné Monaco">
+          <div class="card-body">
+            <h5 class="card-title">PIT BUCKET HAT - GREEN/CRÈME</h5>
+            <p class="card-text">Preço: R$40,00</p>
+            <a href="https://100thieves.com/products/pit-nylon-bucket-hat-green-creme" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+        <!--Produto 10-->
+        <div class="card" style="width: 17em;">
+          <img class="card-img-top" src="Camisa-Monaco.webp" alt="Camisa Monaco">
+          <div class="card-body">
+            <h5 class="card-title">TORQUE BUTTON UP - GREEN/CRÈME</h5>
+            <p class="card-text">Preço: R$85,00</p>
+            <a href="https://100thieves.com/products/torque-button-up-green-creme" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+        <!--Produto 11-->
+        <div class="card" style="width: 17rem;">
+          <img class="card-img-top" src="Shorts-Monaco.jpg" alt="Shorts Monaco">
+          <div class="card-body">
+            <h5 class="card-title">LOCK-UP SHORT - GREEN/CRÈME</h5>
+            <p class="card-text">Preço: R$72,00</p>
+            <a href="https://100thieves.com/products/lock-up-nylon-short-green-creme" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+        <!--Produto 12-->
+        <div class="card" style="width: 17rem;">
+          <img class="card-img-top" src="Chaveiro-Monaco.webp" alt="Chaveiro Monaco">
+          <div class="card-body">
+            <h5 class="card-title">HOLESHOT ENAMEL KEYCHAIN - GOLD</h5>
+            <p class="card-text">Preço: R$28,00</p>
+            <a href="https://100thieves.com/products/holeshot-enamel-keychain-gold" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+        <!--Produto 13-->
+        <div class="card" style="width: 17rem;">
+          <img class="card-img-top" src="Bone2-100T.webp" alt="Boné Azul">
+          <div class="card-body">
+            <h5 class="card-title">FW'22 6 PANEL SNAPBACK - ROYAL</h5>
+            <p class="card-text">Preço: R$35,00</p>
+            <a href="https://100thieves.com/products/6-panel-snapback-royal" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+        <!--Produto 14-->
+        <div class="card" style="width: 17em;">
+          <img class="card-img-top" src="Jaqueta2-100T.webp" alt="Jaqueta Preta 100T">
+          <div class="card-body">
+            <h5 class="card-title">FW'22 POLAR FLEECE JACKET - BLACK</h5>
+            <p class="card-text">Preço: R$118,00</p>
+            <a href="https://100thieves.com/products/fleece-jacket-black-blue" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+        <!--Produto 15-->
+        <div class="card" style="width: 17rem;">
+          <img class="card-img-top" src="Calça-100T.webp" alt="Calça Azul 100T">
+          <div class="card-body">
+            <h5 class="card-title">FW'22 POLAR FLEECE PANT - BLACK</h5>
+            <p class="card-text">Preço: R$82,00</p>
+            <a href="https://100thieves.com/products/fleece-pant-black-blue?pr_prod_strat=copurchase&pr_rec_id=1d93f5a3f&pr_rec_pid=6819611377721&pr_ref_pid=6819611050041&pr_seq=uniform" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+        <!--Produto 16-->
+        <div class="card" style="width: 17rem;">
+          <img class="card-img-top" src="Chaveiro-100T.webp" alt="Chaveiro 100T">
+          <div class="card-body">
+            <h5 class="card-title">FOUNDATIONS KEYCHAIN</h5>
+            <p class="card-text">Preço: R$12,00</p>
+            <a href="https://100thieves.com/products/foundations-keychain-alpine-orange" class="btn btn-danger botao">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <hr class="bg-dark">
+    </div>
+    
+    <!--Rodapé-->
+    <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-4">
+        <!--Coluna 1-->
+        <div class="col mb-3">
+          <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <p class="text-dark">© 2017, 100T Ltd. Todos os direitos reservados.</p>
+        </div>
+        <!--Coluna 2-->
+        <div class="col mb-3">
+        </div>
+        <!--Coluna 3-->
+        <div class="col mb-3">
+          <h5 class="font-weight-bold">Início</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="Loja.html" class="nav-link p-0 text-dark">Loja</a></li>
+            <li class="nav-item mb-2"><a href="../Times/Time.html" class="nav-link p-0 text-dark">Times</a></li>
+            <li class="nav-item mb-2"><a href="../Sobre/Sobre.html" class="nav-link p-0 text-dark">Sobre</a></li>
+            <li class="nav-item mb-2"><a href="../Contato/Contato.html" class="nav-link p-0 text-dark">Contato</a></li>
+          </ul>
+        </div>
+        <!--Coluna 4-->
+        <div class="col mb-3">
+          <h5 class="font-weight-bold">Redes Sociais</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="https://www.tiktok.com/@100thieves?lang=en" class="nav-link p-0 text-dark">Tiktok</a></li>
+            <li class="nav-item mb-2"><a href="https://www.youtube.com/channel/UCnrX2_FoKieobtw19PiphDw" class="nav-link p-0 text-dark">Youtube</a></li>
+            <li class="nav-item mb-2"><a href="https://www.instagram.com/100thieves/" class="nav-link p-0 text-dark">Instagram</a></li>
+            <li class="nav-item mb-2"><a href="https://twitter.com/100Thieves" class="nav-link p-0 text-dark">Twitter</a></li>
+          </ul>
+        </div>
+        <!--Coluna 5-->
+        <div class="col mb-3">
+          <h5 class="font-weight-bold">Nossas Marcas</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="https://100thieves.com/pages/apparel" class="nav-link p-0 text-dark">Apparel</a></li>
+            <li class="nav-item mb-2"><a href="https://drinkjuvee.com" class="nav-link p-0 text-dark">Juvee</a></li>
+            <li class="nav-item mb-2"><a href="https://higround.co" class="nav-link p-0 text-dark">Higround</a></li>
+            <li class="nav-item mb-2"><a href="https://projectx.100thieves.com" class="nav-link p-0 text-dark">Project X</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+  </body>
+</html>
