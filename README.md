@@ -1,4 +1,6 @@
 # 100Thieves Mini E-Commerce
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/DonMeg/Projeto-Crud-100Thieves/blob/main/LICENSE) 
+
 ## Descrição do Projeto:
 Este é um projeto de um mini e-commerce da 100Thieves, uma organização de esportes eletrônicos americana com sede em Los Angeles, Califórnia. 
 Fundada em 2017 por Matthew "Nadeshot" Haag, a 100Thieves compete em vários jogos eletrônicos, incluindo Apex Legends, Call of Duty, League of Legends e Valorant. 
